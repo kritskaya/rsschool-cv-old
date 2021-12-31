@@ -16,6 +16,15 @@ body {
 	border: 1px solid grey;
 }
 
+header {
+	display: flex;
+	flex-direction: column;
+}
+
+header > div.title {
+	display: flex;
+}
+
 ul.nav {
 	display: flex;
 	justify-content: space-around;
