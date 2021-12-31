@@ -54,6 +54,10 @@ function switchItUp(number){
 }
 ```
 
+### Projects
+
+[Project CV#1 RS School](https://kritskaya.github.io/rsschool-cv/cv)
+
 ### Education
 
 * Vitebsk State University of Technology (Marketing faculty)
