@@ -39,3 +39,8 @@ ul.nav > li > a{
 	text-decoration: none;
 	text-transform: uppercase;
 }
+
+main {
+	display: flex;
+	border: 1px solid grey;
+}
