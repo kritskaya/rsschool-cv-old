@@ -2,9 +2,9 @@
 
 ### Contact Information
 
-**Phone:** +37529 211-79-17  
 **E-mail:** kritskaya.tatjana@gmail.com  
-**Telegram:** krytskaya_t  
+**Telegram:** krytskaya_t
+**Discord** kritskaya#5623  
 
 ### About Myself
 
@@ -23,6 +23,7 @@ programming languages (Java and JavaScript).
 3. Git (GitHub)
 4. Frameworks: Bootstrap, Yii2
 5. MySQL
+6. CMS: Joomla
 
 ### Code Example
 ```
