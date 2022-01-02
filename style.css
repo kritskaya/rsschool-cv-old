@@ -7,6 +7,8 @@
 
 html {
 	height: 100%;
+	padding: 50px 0;
+	background: #e6e6e6;
 }
 
 body {
@@ -14,6 +16,7 @@ body {
 	height: 100%;
 	margin: 0 auto;
 	border: 1px solid grey;
+	background: white;
 }
 
 header {
