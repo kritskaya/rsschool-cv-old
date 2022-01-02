@@ -22,10 +22,13 @@ header {
 	display: flex;
 	flex-direction: row;
 }
-header .left {
+
+header .left, 
+main #contact .left{
 	width: 50px;
 	background: #ffcc00;
 }
+
 header .right {
 	display: flex;
 	flex-direction: column;
@@ -70,9 +73,6 @@ ul.nav {
 	background: #e6e6e6;
 }
 
-ul.nav > li {
-	
-}
 
 ul.nav > li > a {
 	display: inline-block;
@@ -97,7 +97,7 @@ main code {
 	font-size: 14px;
 }
 
-main .left {
+main > .left {
 	width: 800px;
 }
 
@@ -111,7 +111,7 @@ section:last-child {
 	border-bottom: 0;
 }
 
-section > h2 {
+section h2 {
 	margin-bottom: 20px;
 	font-size: 16px;
 	text-transform: uppercase;
@@ -122,11 +122,34 @@ section ul {
 	margin-left: 20px;
 }
 
+#contact {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#contact .right {
+	padding: 30px 10px 0 10px;
+}
+
+#contact .right h2 {
+	margin-left: -35px;
+}
+
+#contact .right h3 {
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+
 footer {
 	display: flex;
 	align-items: center;
 	padding: 10px;
 	border: 1px solid grey;
+	background: #ffcc00;
 }
 
 footer > div {
