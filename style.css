@@ -20,31 +20,85 @@ body {
 
 header {
 	display: flex;
+	flex-direction: row;
+}
+header .left {
+	width: 50px;
+	background: #ffcc00;
+}
+header .right {
+	display: flex;
 	flex-direction: column;
+	flex-grow: 1;
 }
 
-header > div.title {
+header .title {
 	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+header .title-photo img {
+	height: 130px;
+	margin-left: 20px;
+	border-radius: 65px;
+	filter: grayscale(90%);
+}
+
+header .title-name {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header .title-name > p {
+	margin-top: -12px;
+	padding: 0 15px;
+	background: white;
+}
+
+header h1 {
+	padding: 10px 45px;
+	border: 2px solid black;
 }
 
 ul.nav {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	list-style: none;
+	background: #e6e6e6;
 }
 
 ul.nav > li {
-	padding: 10px 15px;
+	
 }
 
-ul.nav > li > a{
+ul.nav > li > a {
+	display: inline-block;
+	padding: 10px 15px;
 	text-decoration: none;
 	text-transform: uppercase;
+	transition: 0.3s;
+}
+
+ul.nav > li > a:hover {
+	background: #fff0b3;
 }
 
 main {
 	display: flex;
 	border: 1px solid grey;
+}
+
+main p,
+main li, 
+main code {
+	font-size: 14px;
+}
+
+main .left {
+	width: 800px;
 }
 
 section {
