@@ -14,7 +14,6 @@ body {
 	max-width: 1000px;
 	min-height: 100vh;
 	margin: 0 auto;
-	border: 1px solid grey;
 	background: white;
 }
 
@@ -88,7 +87,6 @@ ul.nav > li > a:hover {
 
 main {
 	display: flex;
-	border: 1px solid grey;
 }
 
 main p,
@@ -130,12 +128,9 @@ section ul {
 	border: none;
 }
 
+
 #contact .right {
 	padding: 30px 10px 0 10px;
-}
-
-#contact .right h2 {
-	margin-left: -35px;
 }
 
 #contact .right h3 {
@@ -143,12 +138,23 @@ section ul {
 	margin-top: 10px;
 }
 
+#contact .right p {
+	position: relative;
+}
+
+#contact .right img {
+	display: block;
+	height: 20px;
+	position: absolute; 
+	top: -15px;
+	left: -38px
+}
+
 
 footer {
 	display: flex;
 	align-items: center;
 	padding: 10px;
-	border: 1px solid grey;
 	background: #ffcc00;
 }
 
