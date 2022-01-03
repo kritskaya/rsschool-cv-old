@@ -2,6 +2,7 @@
 
 ### Contact Information
 
+**Location:** Vitebsk, Belarus
 **E-mail:** kritskaya.tatjana@gmail.com  
 **Telegram:** krytskaya_t
 **Discord** kritskaya#5623  
@@ -14,7 +15,7 @@ where our students doing their control and training tests.
 I usually work with the programs like MS Word, MS Excel, PowerPoint and others.
 But I love programming and want to improve my knowledges I already have.
 My main goal is to become a Web Developer.  
-So I took this case in my hands and spent a lot of time learning English and
+So I decided to take matters in my own hands and spent a lot of time learning English and
 programming languages (Java and JavaScript).
 
 ### Skills
@@ -27,37 +28,15 @@ programming languages (Java and JavaScript).
 
 ### Code Example
 ```
-function switchItUp(number){
-  switch(number) {
-    case 0:
-      return 'Zero';
-    case 1:
-      return 'One';
-    case 2:
-      return 'Two';
-    case 3:
-      return 'Three';
-    case 4:
-      return  'Four';
-    case 5:
-      return 'Five';
-    case 6:
-      return 'Six';
-    case 7:
-      return 'Seven';
-    case 8:
-      return 'Eight';
-    case 9:
-      return 'Nine';
-    default:
-      return 'Wrong number';
-  }
+function boolToWord( bool ){
+  return bool ? "Yes" : "No";
 }
 ```
 
 ### Projects
 
 [Project CV#1 RS School](https://kritskaya.github.io/rsschool-cv/cv)
+[Project CV#3 RS School](https://kritskaya.github.io/rsschool-cv/)
 
 ### Education
 
