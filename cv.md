@@ -2,9 +2,10 @@
 
 ### Contact Information
 
-**Phone:** +37529 211-79-17  
+**Location:** Vitebsk, Belarus
 **E-mail:** kritskaya.tatjana@gmail.com  
-**Telegram:** krytskaya_t  
+**Telegram:** krytskaya_t
+**Discord** kritskaya#5623  
 
 ### About Myself
 
@@ -14,7 +15,7 @@ where our students doing their control and training tests.
 I usually work with the programs like MS Word, MS Excel, PowerPoint and others.
 But I love programming and want to improve my knowledges I already have.
 My main goal is to become a Web Developer.  
-So I took this case in my hands and spent a lot of time learning English and
+So I decided to take matters in my own hands and spent a lot of time learning English and
 programming languages (Java and JavaScript).
 
 ### Skills
@@ -23,9 +24,19 @@ programming languages (Java and JavaScript).
 3. Git (GitHub)
 4. Frameworks: Bootstrap, Yii2
 5. MySQL
+6. CMS: Joomla
 
 ### Code Example
+```
+function boolToWord( bool ){
+  return bool ? "Yes" : "No";
+}
+```
 
+### Projects
+
+[Project CV#1 RS School](https://kritskaya.github.io/rsschool-cv/cv)
+[Project CV#3 RS School](https://kritskaya.github.io/rsschool-cv/)
 
 ### Education
 
