@@ -75,7 +75,6 @@ ul.nav {
 
 ul.nav > li {
 	flex-grow: 1;
-
 }
 
 ul.nav > li > a {
@@ -145,7 +144,7 @@ section ul {
 
 #contact .right h3 {
 	font-size: 14px;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 
 #contact .right p {
@@ -188,4 +187,13 @@ footer .my-github {
 
 footer .rs-link img {
 	height: 30px;
+}
+
+@media (max-width: 768px) {
+	
+	header .title,
+	main,
+	nav .nav {
+   	flex-direction: column;
+	}
 }
