@@ -137,9 +137,13 @@ section ul {
 	border: none;
 }
 
-
 #contact .right {
 	padding: 30px 10px 0 10px;
+}
+
+#contact .right ul {
+	list-style: none;
+	margin: 0;
 }
 
 #contact .right h3 {
